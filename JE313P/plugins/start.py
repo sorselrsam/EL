@@ -13,7 +13,11 @@ PM_START_TEXT = """
 ‣ **اكتشف الباقي بنفسك**.
 ➖➖➖➖➖➖➖➖➖➖➖➖➖➖
 ✘ اضغط على الاسفل لعرض الاوامر الخاصه بي.
-[𖠄 𝗝𝗲𝗽𝘁𝗵𝗼𝗻 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 𖠄](https://t.me/JEPTHON)
+ ╭──── • ⍟ • ────╮
+⌁ [𝑆𝑂𝐔𝑅𝐶𝐸 𝐸𝐿𝑅𝐴𝑆𝐴𝑀 ’⚡](t.me/E_L_R_A_S_A_M)
+⌁ [𝐴𝑆𝐾 𝑇𝑂 𝑀𝑌 ’⚡](https://t.me/ELRSAM11)
+⌁ [𝐸𝐿𝑅𝐴𝑆𝐴𝑀 ’⚡](t.me/Mahmod777777)
+╰──── • ⍟ • ────╯
 """
 
 @JE313P.on(events.NewMessage(pattern="^[?!/]start$"))
@@ -25,7 +29,7 @@ async def start(event):
              caption=PM_START_TEXT.format(event.sender.first_name), 
              buttons=[
         [Button.url("➕ اضغط هنا لأضافتي", f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-        [Button.url("السورس", "https://t.me/JEPTHON")],
+        [Button.url("السورس", "https://t.me/EL_RASA")],
         [Button.url("الدعم", f"https://t.me/{Config.SUPPORT}"), Button.url("القناة", f"https://t.me/{Config.CHANNEL}")],
         [Button.inline("الاوامر", data="help")]])
        return
@@ -41,7 +45,7 @@ async def _(event):
     if event.is_private:
        await event.edit(PM_START_TEXT.format(event.sender.first_name), buttons=[
         [Button.url("➕ اضغط هنا لاضافتي", f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-        [Button.url("السورس", "https://t.me/JEPTHON")],
+        [Button.url("السورس", "https://t.me/EL_RASA")],
         [Button.url("الدعم", f"https://t.me/{Config.SUPPORT}"), Button.url("القناة", f"https://t.me/{Config.CHANNEL}")],
         [Button.inline("الاوامر", data="help")]])
        return
