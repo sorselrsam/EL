@@ -1,5 +1,5 @@
 {
-    "name": "⌁ 𝑆𝑂𝐔𝑅𝐶𝐸 𝐸𝐿𝑅𝐴𝑆𝐴𝑀 ’⚡",
+    "name": "سورس الرسام",
     "description": "سورس ميوزك لتشغيل الاغاني في المحادثات الصوتية .",
     "keywords": ["JEPTHON", "JEPTHON-MUSIC", "music", "voice chat", "telegram", "Yukki", "Yukki Music", "Private Music", "telethon"],
     "repository": "https://github.com/lMl10l/Jepthon-313",
@@ -23,12 +23,12 @@
         "SUPPORT": {
             "description": "ضع هنا معرف مجموعتك او قناتك بدون @",
             "required": false,
-            "value": "EL_RASA"
+            "value": "ELRSAM11"
         },
         "CHANNEL": {
             "description": "ضع معرف قناتك اذا اردت غير ذلك اتركها ",
             "required": false,
-            "value": "ELRSAM11"
+            "value": "EL_RASA"
         },
         "BOT_USERNAME": {
             "description": "هنا ضع معرف البوت بدون @",
